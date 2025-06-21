@@ -1,0 +1,37 @@
+/*
+ * 1.finding empty or not 										=>public boolean isEmpty()->s1.isEmpty();
+ * 2.finding blank or not 										=>public boolean isBlank()->s1.isBlank();
+ * 3.finding length												=>public int     length() ->s1.length();
+ * 4.finding String data (printing)								=>public String toString()->sopln(s1)->s1.toString->data
+ * 
+ * 5.comparing	string equal or not  with case					=>public boolean equals(object obj)			->s1.equals(s2)
+ * 6.comparing string equal or not without case					=>public boolean equalsIgnorecase(String s)	->s1.equalsIgnoreCase(s2)
+ * 7.comparing string with stringBuffer							=>public boolean contentEquals(StringBuffer sb)	
+ * 8.comparing String without StringBuffer						=>public boolean contentEquals(CharSequence cs)
+ * 9.comparing string lexicographically with case
+ * 10.comparing string lexicographically with out case
+ * 
+ * 11.checking subString in this String
+ * 12.checking String Starts with 
+ * 13.checking String Ends with
+ * 
+ * 14.Retrieving one character									=>public char charAT(int index)
+ * 15.Retrieving all characters one at a time					=>for loop with charAT(-)call
+ * 16.Retrieving substring										=>public String substring(int start)
+ * 17.Retrieving subsequence of character(substring)			=>public String subdtring (int start,int end)
+ * 18.Retrieving words (Splitting Strings)						=>public charsequence subSequence(int start,
+ * 
+ * 19.converting String to char[]								=>public char[]    toCharArray();
+ * 20.converting String to byte[]								=>public byte[]    getBytes()
+ * converting primirive values or objects to String				=>public String   valueOf(xxx value/object)
+  
+ * 21.concatenating other string								=>public String concat(String anotherString)
+ * 22.joining Strings											=>public static String join(CharSequence del)
+ * 23.changing case to Upper Case								=>public String toUppercase()
+ * 24.changing case to Lower Case 								=>public String toLowercase()
+ * 24.replacing character or substring
+ * 25.timing string(removing leading and trailing spaces)		=>public String trim()
+ * 
+ * 26.text block base methods
+ *  
+ */
